@@ -5,7 +5,7 @@ import "./style.scss";
 function App() {
   const [state, setState] = useState("CLICK ME");
 
-  return <button onClick={() => setState("CLICKED")}>{state}</button>;
+  return <></>;
 }
 
 render(<App />, document.getElementById("root"));
